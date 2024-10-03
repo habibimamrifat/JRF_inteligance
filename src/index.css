@@ -1,4 +1,78 @@
-.navbarLogoSection
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 124px;
+}
+.logoandMenuSection {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.navbarLogoSection {
+  border-right: 2px solid;
+  border-color: #545454;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.menusection {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 19px;
+}
+.menu {
+  font-size: 18px;
+  color: #afafaf;
+}
+a {
+  text-decoration: none;
+}
+
+.languageButtonSection
 {
-    display: flex;
+    width: 126px;
+    position: relative;
+}
+.languageButton {
+  border: 0;
+  background: rgba(0, 0, 0, 0.1);
+  height: 48px;
+  width: 126px;
+  border-radius: 5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 18px;
+}
+.languageOptionDropdown{
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 5;
+    width: 126px;
+    border-bottom-left-radius:5% ;
+    border-bottom-right-radius:5% ;   
+}
+.langOptionButton{
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    border: none;
+    background:transparent;
+}
+.langDownArrowUp {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
 }

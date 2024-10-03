@@ -1,0 +1,34 @@
+{
+    "navbar":{
+        "logo":"../src/assets/logo.png",
+        "logoText":"DIGI KOEIN",
+        "menus":[
+            {
+                "name":"Home",
+                "link":"/"
+            },
+            {
+                "name":"What we do",
+                "link":"/"
+            },
+            {
+                "name":"What is Digikoein?",
+                "link":"/"
+            },
+            {
+                "name":"Remittance",
+                "link":"/"
+            },
+            {
+                "name":"About",
+                "link":"/"
+            }
+        ],
+        "languages":[
+            "English",
+            "Bangali",
+            "Arabic",
+            "Spanish"
+        ]
+    }
+}
